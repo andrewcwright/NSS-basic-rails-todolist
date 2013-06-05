@@ -1,4 +1,10 @@
 NSSBasicRailsTodolist::Application.routes.draw do
+  get "tasks/index"
+
+  get "tasks/new"
+
+  get "tasks/create"
+
   get "tasks_controller/index"
 
   get "tasks_controller/new"
