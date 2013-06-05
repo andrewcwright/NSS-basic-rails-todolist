@@ -1,4 +1,10 @@
 NSSBasicRailsTodolist::Application.routes.draw do
+  get "tasks_controller/index"
+
+  get "tasks_controller/new"
+
+  get "tasks_controller/create"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
