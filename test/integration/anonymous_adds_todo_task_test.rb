@@ -7,7 +7,7 @@ class AnonymousAddsTodoTaskTest < ActionDispatch::IntegrationTest
     click_link 'Write Task'
     fill_in 'Title', with: 'This is the first task!'
     click_button 'Submit Task'
-    assert_include page.body, "Your task has now been published"
+    assert_include page.body, "Your task has now been added!"
     visit '/tasks'
     assert_include page.body, "This is the first task!"
   end
