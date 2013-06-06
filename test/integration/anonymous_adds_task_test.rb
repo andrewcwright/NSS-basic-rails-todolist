@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AnonymousAddsTodoTaskTest < ActionDispatch::IntegrationTest
+class AnonymousAddsTaskTest < ActionDispatch::IntegrationTest
 
   test "posting a new task" do
     visit '/'

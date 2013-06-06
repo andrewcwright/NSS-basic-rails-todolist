@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AnonymousAddsTodoTaskTest < ActionDispatch::IntegrationTest
+class AnonymousBrowsesTasksTest < ActionDispatch::IntegrationTest
   test "view a list of tasks" do
     Task.create!(title: "First Task")
     Task.create!(title: "Second Task")
